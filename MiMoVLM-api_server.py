@@ -54,7 +54,7 @@ async def startup_event():
     try:
         model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             MODEL_PATH,
-            torch_dtype=torch.float16, # 根据您的硬件和测试结果调整
+            torch_dtype=torch.bfloat16, # 根据您的硬件和测试结果调整
             device_map="auto",
             trust_remote_code=True
         )
