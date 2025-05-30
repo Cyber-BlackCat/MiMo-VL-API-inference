@@ -1,4 +1,4 @@
-[🇺🇸 English Guide](README.md)
+[**🇨🇳 中文**] | [🇺🇸 English Guide](README.md)
 
 # MiMo-VL-7B-RL 快速API调用脚本说明
 

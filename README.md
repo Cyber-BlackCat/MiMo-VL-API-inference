@@ -1,4 +1,4 @@
-[🇨🇳 中文说明](README-cn.md)
+[🇨🇳 中文说明](README-cn.md) | **🇺🇸 English**
 
 # MiMo-VL-7B-RL Quick API Script Guide
 
