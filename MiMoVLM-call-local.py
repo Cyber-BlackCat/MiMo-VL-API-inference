@@ -14,7 +14,7 @@ try:
     # 从本地加载模型
     model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
         MODEL_PATH,
-        torch_dtype=torch.float16,
+        torch_dtype=torch.bfloat16,
         device_map="auto",
         trust_remote_code=True
     )
